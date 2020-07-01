@@ -55,7 +55,7 @@ export default {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #F2A390;
+  background-color: #ff3300;
   overflow-x: hidden;
   padding-top: 20px;
 }
