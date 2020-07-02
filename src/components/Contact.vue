@@ -108,7 +108,7 @@ padding-top: 50px;
 }
 
 .icons img {
-  width: 50px;
+  width: 40px;
 }
 
 .main {
@@ -129,7 +129,7 @@ padding-left: 50px;
 
 .main p {
  font-family: 'Assistant', sans-serif;
- font-size: 35px;
+ font-size: 25px;
 
 }
 

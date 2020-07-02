@@ -184,7 +184,7 @@ hr {
   justify-content: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 150px;
+  padding-left: 50px;
 }
 
 .icon-2 {
