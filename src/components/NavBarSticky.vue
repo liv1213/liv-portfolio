@@ -50,12 +50,13 @@ export default {
 
 .sidenav {
   height: 100%;
-  width: 400px;
+  width: 450px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #ff3300;
+  background-color: #F37E85;
+  opacity: 0.65;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -63,38 +64,37 @@ export default {
 .sidenav a {
   text-decoration: none;
 font-family: 'Bebas Neue', cursive;
-  font-size: 90px;
-  color: #EB3F24;
+  font-size: 100px;
+  color: white;
   display: block;
   text-align: center;
 }
 
 .sidenav a:hover {
-  color: white;
+  color: #ffee58;
 }
 
 h1 {
    font-family: 'Oswald', sans-serif;
-   font-size: 90px;
+   font-size: 100px;
    text-align: center;
 margin-top: 100px;
+ 
 }
 
 
 
 .rainbow-text {
-  background: #CA4246;
-  background-color: #CA4246;
+    
+background: #ff4848;
+  background-color: #ff6b6b;
   background: conic-gradient(
-    #FF475D 16.666%, 
-    #FF475D 16.666%, 
-    #ffcfc1 33.333%, 
-    #ffee58 33.333%, 
-    #c4ff56 50%, 
-    #ffffff 66.666%, 
-    #6bd5f5 66.666%, 
-    #71eff8 83.333%, 
-    #fd7fec 83.333%);
+    #fce93d 33.333%,
+    #b0ff1e 50%, 
+    #25d3ff 66.666%, 
+    #f52bb2 66.666%, 
+    #f8911a 83.333%, 
+    #fc2121 83.333%);
 
   background-size: 57%;
   background-repeat: repeat;

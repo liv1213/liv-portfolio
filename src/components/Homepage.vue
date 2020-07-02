@@ -1,8 +1,19 @@
+
+   
+ 
+
+
+
 <template>
-    <div >
+    <div>
         <div class="main">
+          
 
 <div class="header">
+  <div class="head-img">
+<img src="@/assets/me.svg" alt="none">
+  </div>
+ 
     <div>
   <p>DEVELOPMENT | DESIGN | CREATIVE</p> 
     </div>
@@ -13,7 +24,7 @@
 <div class="image-layout">
 <a href="https://www.behance.net/gallery/96834851/Burger-boy"><img id="img-1" src="@/assets/burgerboy.jpg" alt="burger"></a>
 <a href="https://www.behance.net/gallery/96841009/Triphub-web-application"><img id="img-1" src="@/assets/work1.jpg" alt="one"></a>
-<a href="https://www.behance.net/gallery/96831085/Black-estate-re-design"><img id="img-1" src="@/assets/work2.jpg" alt="burger"></a>
+<a href="https://blackestate-assignment.netlify.app/"><img id="img-1" src="@/assets/work2.jpg" alt="burger"></a>
 </div>
 
 <div class="image-layout-2">
@@ -33,35 +44,89 @@
     <a href="https://www.behance.net/gallery/96834623/Photography-project"><img id="img-1" src="@/assets/work9.jpg" alt="burger"></a>
 
 </div>
+        <div class="contact">
+<button class="contact-button"><a href="mailto:olivialonsdale1999@gmail.com">CONTACT ME</a></button>
+</div>
     </div>
+ 
 
    <div class="icons">
+
      <div class="icon-1">
  <a href="https://www.behance.net/olivialonsdale"><img src="@/assets/behance-logo.png" alt="behance"></a>
      </div>
     <div class="icon-2">
    <a href="https://codepen.io/olivia-lonsdale"><img src="@/assets/codepen.svg" alt="codepen"></a> 
     </div>
+      <div class="icon-3">
+  <a href="https://github.com/liv1213"><img src="@/assets/github-logo.png" alt="github"></a>
+</div>
  
    </div>
     </div>
 </template>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js"></script>
+    
 <script>
+
 export default {
         name: 'Homepage',
-        
+
+
 }
+
+
 </script>
 
 <style scoped>
+.main a {
+  text-decoration: none;
+ color: #1b1b1b;
+  font-family: 'Assistant', sans-serif;
+font-size: 40px;
+
+}
+
+.contact-button {
+  background-color: #96CFF1;
+  border: none;
+    color: black;
+    padding: 20px 60px 20px 60px;
+    border-radius: 50px;
+       box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.contact-button:hover {
+  background-color:  #F37E85;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+  color: black;
+  transform: translateY(-7px);
+}
+
+
+
+.contact {
+  padding-left: 560px;
+  padding-top: 100px;
+}
+
+.head-img {
+  padding-left: 500px;
+}
 
 .icons {
   display: flex;
   justify-content: center;
-  padding: 50px 0px 50px 0px;
-    margin-left: 400px; 
+  padding-top: 50px;
+  padding-bottom: 50px;
+    margin-left: 470px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
 margin-top: 0px;
+padding-left: 50px;
 }
 
 .icon-2 {
@@ -72,6 +137,10 @@ margin-top: 0px;
   padding-right: 50px;
 }
 
+.icon-3 {
+  padding-left: 100px;
+}
+
 
 .icons img {
   width: 50px;
@@ -79,7 +148,7 @@ margin-top: 0px;
 
 
 #img-1{
-    padding: 15px;
+    padding: 10px;
 }
 
 .image-layout {
@@ -98,10 +167,10 @@ margin-top: 0px;
 }
 
 .main {
-  margin-left: 400px; /* Same as the width of the sidenav */
+  margin-left: 470px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
 margin-top: 0px;
-padding: 30px;
+padding: 30px 30px 30px 0px;
 }
 
 .main img {
@@ -110,13 +179,16 @@ padding: 30px;
 
 .header {
     margin-bottom: 50px;
-    background-color: #ffeae4;
+   
 }
 
 .header p {
+  margin-top: 50px;
+  margin-bottom: 0px;
 text-align: center;
-font-family: 'Roboto', sans-serif;
-color: #FF475D;
+  font-family: 'Assistant', sans-serif;
+color: #F37E85;
+font-size: 40px;
 }
 
 
