@@ -85,7 +85,8 @@ padding-top: 50px;
 
 .contact {
   padding-left: 550px;
-  padding-top: 200px;
+  padding-top: 150px;
+  padding-bottom: 100px;
 }
 
 .icons {
