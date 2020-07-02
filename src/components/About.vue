@@ -201,9 +201,9 @@ hr {
 
 
 .icons img {
-  width: 50px;
-  
+  width: 40px;
 }
+
 
 
 .me-img img {

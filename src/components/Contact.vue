@@ -111,6 +111,8 @@ padding-top: 50px;
   width: 40px;
 }
 
+
+
 .main {
   margin-left: 400px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */

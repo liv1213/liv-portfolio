@@ -143,8 +143,9 @@ padding-left: 50px;
 
 
 .icons img {
-  width: 50px;
+  width: 40px;
 }
+
 
 
 #img-1{
