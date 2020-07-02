@@ -91,7 +91,7 @@ padding-top: 50px;
 .icons {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 50px;
 }
 
