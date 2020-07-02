@@ -78,7 +78,7 @@ h1 {
    font-family: 'Oswald', sans-serif;
    font-size: 100px;
    text-align: center;
-margin-top: 100px;
+margin-top: 50px;
  
 }
 

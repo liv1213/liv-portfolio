@@ -50,7 +50,7 @@ export default {
 }
 
 .contact-img img {
-width: 25%;
+width: 20%;
 padding-left: 100px;
 padding-top: 50px;
 }
@@ -85,7 +85,7 @@ padding-top: 50px;
 
 .contact {
   padding-left: 550px;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 .icons {
@@ -124,7 +124,7 @@ padding-left: 50px;
   font-size: 100px;
   text-align: center;
   padding-top: 150px;
-  
+  margin: 0px;
 }
 
 .main p {

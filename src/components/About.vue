@@ -208,7 +208,7 @@ hr {
 
 .me-img img {
   width: 500px;
-  padding: 50px 50px 50px 200px;
+  padding: 50px 50px 50px 100px;
 }
 
 .main {
