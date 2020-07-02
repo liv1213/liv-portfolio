@@ -92,6 +92,7 @@ padding-top: 50px;
   display: flex;
   justify-content: center;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .icon-2 {
